@@ -6,7 +6,6 @@
 body{
   background-color: rgb(199, 205, 203);
   font-family: 'Raleway', sans-serif;
-  font-size: 10px;
 }
 
 .content-tarjeta{
@@ -30,8 +29,6 @@ body{
 .box-gradient{
   height: 300px;
   background: -webkit-linear-gradient(-30deg, transparent 48%, #2F2F2F 0%);
-  background: -o-linear-gradient(-30deg, transparent 48%, #2F2F2F 0%);
-  'background: linear-gradient(-30deg, transparent 48%, #2F2F2F 0%);
 }
 
 .box-datos{
@@ -44,4 +41,20 @@ body{
   top: 60px;
   right: 15px;
   text-align: center;
+  font-size: 30px;
+}
+
+.profesion{
+  width: auto;
+  position: absolute;
+  top: 140px;
+  right: 35px;
+  text-align: center;
+  color: #FFA500;
+  font-size: 15px;
+}
+
+.ico{
+  position: absolute;
+  left: -20px;
 }
